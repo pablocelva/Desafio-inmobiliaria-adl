@@ -1,0 +1,41 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+.card p {
+    margin-bottom: 0.5rem; 
+}
+.card p .fas, .card p .fa-solid {
+    margin-right: 0.5rem; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+}
